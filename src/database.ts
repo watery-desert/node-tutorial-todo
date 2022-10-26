@@ -7,7 +7,7 @@ export class Database {
 
   static async initilize() {
     this.mongoClient = await MongoClient.connect(
-      'mongodb+srv://ahmed:saap4OmaiWVBi6kR@cluster0.v3mqsv3.mongodb.net/todo?retryWrites=true&w=majority'
+      'paste your mongodb link here'
     );
   }
 
